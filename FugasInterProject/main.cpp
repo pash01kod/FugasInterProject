@@ -9,6 +9,7 @@ int main()
 	srand(time(NULL));
 
 	GameManager game;
+	game.initGame();
 
 	while (game.getPlaying())
 	{

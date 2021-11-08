@@ -140,10 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="gameManager.cpp" />
-    <ClCompile Include="heroManager.cpp" />
+    <ClCompile Include="hero.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="playerManager.cpp" />
-    <ClCompile Include="teamManager.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="team.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />

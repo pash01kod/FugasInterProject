@@ -1,6 +1,6 @@
 #pragma once
-#include<string>
-#include<iostream>
+#include <iostream>
+#include <string>
 
 
 class Player
@@ -8,22 +8,12 @@ class Player
 public:
 	Player();
 	virtual ~Player();
-
-	//functions
-	void createPlayer(std::string name, int id);
-	void showPlayerInfo();
-
-	//accessors
-	Player getPlayerByName(std::string name);
-
-	Player getPlayerById(int id);
+	Player(std::string name, int id, int rank);
 	
-
+	std::string getName();
+	int getId();
 	
 	
-	//modifiers
-
-private:
 
 	int id;
 	std::string name;

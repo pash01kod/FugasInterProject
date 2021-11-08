@@ -21,13 +21,13 @@
     <ClCompile Include="gameManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playerManager.cpp">
+    <ClCompile Include="player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="heroManager.cpp">
+    <ClCompile Include="hero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="teamManager.cpp">
+    <ClCompile Include="team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

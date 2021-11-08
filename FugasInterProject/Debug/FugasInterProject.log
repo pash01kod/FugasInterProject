@@ -1,6 +1,9 @@
 ﻿  gameManager.cpp
+  heroManager.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\heroManager.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   main.cpp
 C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\main.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   playerManager.cpp
+  teamManager.cpp
   Generating Code...
   FugasInterProject.vcxproj -> C:\Users\Pavlo\source\repos\FugasInterProject\Debug\FugasInterProject.exe

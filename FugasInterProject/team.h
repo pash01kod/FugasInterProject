@@ -2,17 +2,26 @@
 #include"player.h"
 #include"hero.h"
 
+struct TeamPart
+{
+	Player player;
+	Hero hero;
+};
 
 class Team
 {
 public:
 	Team();
-
 	virtual ~Team();
 
+	void generateNewTeam();
+
+	void getTeamInfo();
+
 private:
-	Player players[5];
-	Hero heroes[5];
+
+	std::string name;
+	TeamPart member[5];
+	
 
 };
-
