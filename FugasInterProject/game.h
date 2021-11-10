@@ -1,5 +1,6 @@
 #pragma once
 
+#include"hero.h"
 #include"team.h"
 #include<ctime>
 #include<string>
@@ -24,10 +25,10 @@ public:
 
 	//modifiers
 
-private:
+
 	int choice;
 	bool playing;
 
-	Hero hero;
+	
 };
 

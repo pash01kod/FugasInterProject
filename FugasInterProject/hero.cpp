@@ -1,19 +1,5 @@
 #include "hero.h"
 
-Hero::Hero()
-{
-	srand(time(0));
-
-	this->id = 1 + rand() % 100;
-	this->name = "";
-	this->hp = 1 + rand() % 100;
-	this->damage = 1 + rand() % 30;
-}
-
-Hero::~Hero()
-{
-
-}
 
 Hero::Hero(int id, std::string name, int hp, int damage)
 {
@@ -38,6 +24,11 @@ int Hero::getId()
 	return id;
 }
 
+int Hero::getHp()
+{
+	return hp;
+}
+
 int Hero::setHp(int hp)
 {
 	this->hp = hp;
@@ -45,8 +36,4 @@ int Hero::setHp(int hp)
 }
 
 
-
-/*
-
-*/
 

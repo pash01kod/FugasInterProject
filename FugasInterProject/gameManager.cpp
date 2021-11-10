@@ -12,15 +12,6 @@ GameManager::~GameManager()
 
 }
 
-void GameManager::initGame()
-{
-	
-	std::string name;
-	std::cout << "Enter name of hero: ";
-	getline(std::cin, name);
-
-	hero.createHero(name);
-}
 
 void GameManager::mainMenu()
 {
@@ -39,9 +30,8 @@ void GameManager::mainMenu()
 	{
 	case 0:
 		playing = false;
-		break;
-	case 4:
-		hero.showHeroInfo();
+		
+		
 		break;
 	default:
 		break;

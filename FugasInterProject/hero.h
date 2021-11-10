@@ -1,5 +1,6 @@
 #pragma once
 #include"game.h"
+#include<string>
 
 class Hero
 {
@@ -8,10 +9,7 @@ public:
 	std::string name;
 	int hp;
 	int damage;
-
-	Hero();
-	virtual ~Hero();
-
+	   
 	Hero(int id, std::string name, int hp, int damage);
 	
 	std::string getName();

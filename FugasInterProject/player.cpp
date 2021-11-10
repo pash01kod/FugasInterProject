@@ -1,15 +1,10 @@
 #include "player.h"
+
 Player::Player()
 {
-	id = 0;
-	name = "NONE";
-	rank = 0;
+	
 }
 
-Player::~Player()
-{
-
-}
 
 Player::Player(std::string name, int id, int rank)
 {
@@ -37,6 +32,7 @@ void Player::setRank(int newRank)
 {
 	rank = newRank;
 }
+
 /*
 void Player::showPlayerInfo()
 {

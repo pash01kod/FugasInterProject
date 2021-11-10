@@ -12,7 +12,6 @@ public:
 	int rank;
 
 	Player();
-	virtual ~Player();
 	Player(std::string name, int id, int rank);
 	
 	std::string getName();

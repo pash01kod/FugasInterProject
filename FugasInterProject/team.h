@@ -2,11 +2,7 @@
 #include"player.h"
 #include"hero.h"
 
-struct TeamPart
-{
-	Player player;
-	Hero hero;
-};
+
 
 class Team
 {
@@ -20,8 +16,7 @@ public:
 
 private:
 
-	std::string name;
-	TeamPart member[5];
+
 	
 
 };

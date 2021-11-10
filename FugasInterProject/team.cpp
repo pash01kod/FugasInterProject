@@ -10,6 +10,7 @@ Team::~Team()
 
 }
 
+/*
 std::vector<std::string> heroes
 {
 	"vampire",
@@ -23,3 +24,4 @@ std::vector<std::string> heroes
 	"ranger",
 	"necromancer"
 };
+*/
