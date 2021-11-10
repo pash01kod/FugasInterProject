@@ -47,11 +47,6 @@ int Hero::setHp(int hp)
 
 
 /*
-void Hero::showHeroInfo()
-{
-	std::cout << "Hero " << this->name << " with "
-		<< this->id << " id has " << this->hp << " health and "
-		<< this->damage << " points of damage attack\n";
-}
+
 */
 

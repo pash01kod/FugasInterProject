@@ -6,17 +6,19 @@
 class Player
 {
 public:
+
+	int id;
+	std::string name;
+	int rank;
+
 	Player();
 	virtual ~Player();
 	Player(std::string name, int id, int rank);
 	
 	std::string getName();
 	int getId();
-	
-	
+	int getRank();
 
-	int id;
-	std::string name;
-	int rank;
+	void setRank(int newRank);
 };
 
