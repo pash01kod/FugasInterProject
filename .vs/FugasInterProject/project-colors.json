@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ecda5d59-fc07-46b2-aac0-5eebcb525a95": {
+      "ProjectGuid": "ecda5d59-fc07-46b2-aac0-5eebcb525a95",
+      "DisplayName": "FugasInterProject",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
