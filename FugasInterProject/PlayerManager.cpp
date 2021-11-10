@@ -1,5 +1,14 @@
 #include "PlayerManager.h"
 
+PlayerManager::PlayerManager() 
+{
+}
+
+PlayerManager::PlayerManager(Player& players)
+{
+players: this->players;
+}
+
 Player PlayerManager::createPlayer(Player& new_player)
 {
 	int id;

@@ -59,7 +59,7 @@ void HeroManager::print()
 	}
 }
 
-Hero HeroManager::RandHero()
+Hero HeroManager::randHero()
 {
 	srand((unsigned)time(0));
 	int a = (rand() % heroes.size());

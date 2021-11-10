@@ -17,6 +17,6 @@ public:
 
 	void print();
 
-	Hero RandHero();
+	Hero randHero();
 };
 
