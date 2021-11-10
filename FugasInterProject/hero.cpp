@@ -1,5 +1,9 @@
 #include "hero.h"
 
+Hero::Hero()
+{
+
+}
 
 Hero::Hero(int id, std::string name, int hp, int damage)
 {

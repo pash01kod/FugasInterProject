@@ -7,16 +7,13 @@
 class Team
 {
 public:
+	std::string name;
+	Player players[5];
+	Hero heroes[5];
+
 	Team();
-	virtual ~Team();
-
-	void generateNewTeam();
-
-	void getTeamInfo();
-
-private:
-
-
 	
+	Team(std::string name);
 
+	Team(std::string name, Player players[5], Hero heroes[5]);
 };

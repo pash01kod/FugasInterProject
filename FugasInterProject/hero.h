@@ -9,7 +9,8 @@ public:
 	std::string name;
 	int hp;
 	int damage;
-	   
+
+	Hero();
 	Hero(int id, std::string name, int hp, int damage);
 	
 	std::string getName();
