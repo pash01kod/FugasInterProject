@@ -2,33 +2,30 @@
 
 #include"hero.h"
 #include"team.h"
+#include"player.h"
+#include"HeroManager.h"
+#include"PlayerManager.h"
+#include"Session.h"
+#include"TeamManager.h"
 #include<ctime>
 #include<string>
 #include<iostream>
 #include<vector>
+#include<list>
 
 
 class GameManager
 {
 public:
 	GameManager();
-	virtual ~GameManager();
 
-	//operators
-
-	//fuctions
 	void mainMenu();
-	void initGame();
 
-	//accessors
-	bool getPlaying() const { return this->playing; }
+	void performGameSession();
 
-	//modifiers
+	void addRank(Team& winnerTeam);
+	void removeRank(Team& loserTeam);
 
-
-	int choice;
-	bool playing;
-
-	
+	std::list<Session> gameSessions;
 };
 

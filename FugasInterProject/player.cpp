@@ -6,7 +6,7 @@ Player::Player()
 }
 
 
-Player::Player(std::string name, int id, int rank)
+Player::Player(int id, std::string name, int rank)
 {
 	this->name = name;
 	this->id = id;

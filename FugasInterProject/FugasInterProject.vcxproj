@@ -145,6 +145,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="PlayerManager.cpp" />
+    <ClCompile Include="Session.cpp" />
     <ClCompile Include="team.cpp" />
     <ClCompile Include="TeamManager.cpp" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="HeroManager.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="PlayerManager.h" />
+    <ClInclude Include="Session.h" />
     <ClInclude Include="team.h" />
     <ClInclude Include="TeamManager.h" />
   </ItemGroup>

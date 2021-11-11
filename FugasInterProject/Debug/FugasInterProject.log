@@ -1,11 +1,116 @@
-﻿  HeroManager.cpp
+﻿  hero.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,7): error C3646: 'heroes': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,13): error C2143: syntax error: missing ',' before '['
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(18,44): error C2061: syntax error: identifier 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,14): error C2065: 'Hero': undeclared identifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2923: 'std::vector': 'Hero' is not a valid template type argument for parameter '_Ty'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10): message : see declaration of 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : see declaration of 'std::vector'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,7): error C3646: 'createHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,17): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,7): error C3646: 'getHeroByName': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,20): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,38): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,7): error C3646: 'getHeroById': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,18): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,26): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(31,20): error C2061: syntax error: identifier 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,7): error C3646: 'randHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,15): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,17): error C2238: unexpected token(s) preceding ';'
+  HeroManager.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,7): error C3646: 'heroes': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,13): error C2143: syntax error: missing ',' before '['
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(18,44): error C2061: syntax error: identifier 'Hero'
 C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
-  gameManager.cpp
-  hero.cpp
-  main.cpp
-C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\main.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  player.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.cpp(42,20): warning C4018: '<': signed/unsigned mismatch
+  Session.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,14): error C2065: 'Hero': undeclared identifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2923: 'std::vector': 'Hero' is not a valid template type argument for parameter '_Ty'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10): message : see declaration of 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : see declaration of 'std::vector'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,7): error C3646: 'createHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,17): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,7): error C3646: 'getHeroByName': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,20): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,38): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,7): error C3646: 'getHeroById': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,18): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,26): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(31,20): error C2061: syntax error: identifier 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,7): error C3646: 'randHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,15): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,17): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,7): error C3646: 'generateNewTeam': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,22): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,44): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,7): error C3646: 'generateNewTeamOne': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,25): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,47): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(16,19): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(26,15): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(27,18): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(29,12): error C2065: 'Session': undeclared identifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(29,7): error C2923: 'std::list': 'Session' is not a valid template type argument for parameter '_Ty'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(29): message : see declaration of 'Session'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(29,7): error C2976: 'std::list': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\list(754): message : see declaration of 'std::list'
   team.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,14): error C2065: 'Hero': undeclared identifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2923: 'std::vector': 'Hero' is not a valid template type argument for parameter '_Ty'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10): message : see declaration of 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(10,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : see declaration of 'std::vector'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,7): error C3646: 'createHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,17): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(28,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,7): error C3646: 'getHeroByName': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,20): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(29,38): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,7): error C3646: 'getHeroById': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,18): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(30,26): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(31,20): error C2061: syntax error: identifier 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,7): error C3646: 'randHero': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,15): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(36,17): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(9,10): error C3646: 'winner': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(9,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(10,10): error C3646: 'teamOne': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(10,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(11,10): error C3646: 'teamTwo': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(11,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(12,10): error C3646: 'loser': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(12,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(17,19): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\Session.h(19,23): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,7): error C3646: 'generateNewTeam': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,22): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(12,44): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,7): error C3646: 'generateNewTeamOne': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,25): error C2059: syntax error: '('
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(14,47): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.h(16,19): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(26,15): error C2061: syntax error: identifier 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\game.h(27,18): error C2061: syntax error: identifier 'Team'
+  TeamManager.cpp
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,7): error C3646: 'heroes': unknown override specifier
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,13): error C2143: syntax error: missing ',' before '['
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(12,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(18,44): error C2061: syntax error: identifier 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(26,37): error C2661: 'Team::Team': no overloaded function takes 3 arguments
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(44,27): error C2039: 'heroes': is not a member of 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\team.h(7): message : see declaration of 'Team'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(44,2): error C3531: 'element': a symbol whose type contains 'auto' must have an initializer
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(44,20): error C2143: syntax error: missing ';' before ':'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(44,33): error C2143: syntax error: missing ';' before ')'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(46,36): error C2664: 'void HeroManager::showHeroInfo(Hero)': cannot convert argument 1 from 'int' to 'Hero'
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\TeamManager.cpp(46,36): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.h(31,7): message : see declaration of 'HeroManager::showHeroInfo'
   Generating Code...
-C:\Users\Pavlo\source\repos\FugasInterProject\FugasInterProject\HeroManager.cpp(38): warning C4715: 'HeroManager::getHeroByName': not all control paths return a value
-  FugasInterProject.vcxproj -> C:\Users\Pavlo\source\repos\FugasInterProject\Debug\FugasInterProject.exe

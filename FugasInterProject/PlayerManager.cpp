@@ -6,7 +6,7 @@ PlayerManager::PlayerManager()
 
 PlayerManager::PlayerManager(Player& players)
 {
-players: this->players;
+	this->players;
 }
 
 Player PlayerManager::createPlayer(Player& new_player)

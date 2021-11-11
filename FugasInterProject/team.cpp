@@ -20,19 +20,3 @@ Team::Team(std::string name, Player players[5], Hero heroes[5])
 		this->heroes[i] = heroes[i];
 	}
 }
-
-/*
-std::vector<std::string> heroes
-{
-	"vampire",
-	"witch",
-	"goblin",
-	"linch",
-	"gopnik",
-	"ninja",
-	"archer",
-	"wizard",
-	"ranger",
-	"necromancer"
-};
-*/

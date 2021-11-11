@@ -6,15 +6,9 @@
 
 int main()
 {
-	srand(time(NULL));
 
 	GameManager game;
-
-	while (game.getPlaying())
-	{
-		game.mainMenu();
-	}
-
+	game.performGameSession();
 
 	return 0;
 }

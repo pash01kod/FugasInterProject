@@ -12,7 +12,7 @@ public:
 	int rank;
 
 	Player();
-	Player(std::string name, int id, int rank);
+	Player(int id, std::string name, int rank);
 	
 	std::string getName();
 	int getId();

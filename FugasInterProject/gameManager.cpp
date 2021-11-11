@@ -1,40 +1,57 @@
 #include"game.h"
 
 
-GameManager::GameManager()
+void GameManager::performGameSession()
 {
-	choice = 0;
-	playing = true;
+	std::cout << "****** Start Game ******" << "\n\n";
+	std::string teamOneName = "Nazi";
+	std::string teamTwoName = "Soviet Union";
+	TeamManager teamManager;
+
+	std::cout << "First team: " << teamOneName << "\n\n";
+	Team team1 = teamManager.generateNewTeam(teamOneName);
+
+
+	std::cout << "Second team: " << teamTwoName << "\n\n";
+	Team team2 = teamManager.generateNewTeamOne(teamTwoName);
+
+
+	Session session;
+	session.teamOne = team1;
+	session.teamTwo = team2;
+
+	session.calculateWinner();
+
+	gameSessions.push_back(session);
+
+	addRank(session.winner);
+	removeRank(session.loser);
+	std::cout << "\n\n";
+
+	std::cout << "Game session ENDED \n\n";
+	std::cout << "++++++ RESULTS ++++++\n\n";
+	teamManager.getTeamInfo(session.winner);
+	std::cout << "\n\n";
+
+	teamManager.getTeamInfo(session.loser);
+	std::cout << "\n";
+
+
+
 }
 
-GameManager::~GameManager()
+void GameManager::addRank(Team& winnerTeam)
 {
-
-}
-
-
-void GameManager::mainMenu()
-{
-	std::cout << "------ MAIN MENU ------" << std::endl << std::endl;
-	std::cout << "0: Quit" << std::endl;
-	std::cout << "1: Play" << std::endl;
-	std::cout << "2: Games statistics" << std::endl;
-	std::cout << "3: Players statistics" << std::endl;
-	std::cout << "4: Heroes info" << std::endl;
-
-	std::cout << std::endl << "Choice: ";
-
-	std::cin >> choice;
-
-	switch (choice)
+	for (auto& player : winnerTeam.players)
 	{
-	case 0:
-		playing = false;
-		
-		
-		break;
-	default:
-		break;
+		player.setRank(player.getRank() + 25);
+	}
+}
 
+void GameManager::removeRank(Team& loserTeam)
+{
+	for (auto& player : loserTeam.players)
+	{
+		player.setRank(player.getRank() - 25);
 	}
 }

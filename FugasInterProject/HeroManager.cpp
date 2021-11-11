@@ -37,6 +37,17 @@ Hero HeroManager::getHeroByName(std::string name)
 	}
 }
 
+Hero HeroManager::getHeroById(int id)
+{
+	for (int i = 0; i < heroes.size(); i++)
+	{
+		if (heroes[i].getId() == id)
+		{
+			return heroes[i];
+		}
+	}
+}
+
 void HeroManager::showHeroInfo(Hero hero)
 {
 	std::cout << "Hero " << hero.getName() << " with "
