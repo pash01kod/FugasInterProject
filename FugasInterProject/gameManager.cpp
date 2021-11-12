@@ -1,4 +1,6 @@
 #include"game.h"
+#include "TeamManager.h"
+#include "Team.h"
 
 GameManager::GameManager()
 {
@@ -7,17 +9,17 @@ GameManager::GameManager()
 
 void GameManager::performGameSession()
 {
-	std::cout << "****** Start Game ******" << "\n\n";
-	std::string teamOneName = "Nazi";
-	std::string teamTwoName = "Soviet Union";
+	std::cout << "************ START GAME ************" << "\n\n";
+	std::string teamOneName = "NAZI";
+	std::string teamTwoName = "USSR";
 	TeamManager teamManager;
 
-	std::cout << "First team: " << teamOneName << "\n\n";
-	Team team1 = teamManager.generateNewTeam(teamOneName);
+	std::cout << "First team: " << teamOneName << "\n";
+	Team team1 = teamManager.generateTeamOne(teamOneName);
 
 
 	std::cout << "Second team: " << teamTwoName << "\n\n";
-	Team team2 = teamManager.generateNewTeam(teamTwoName);
+	Team team2 = teamManager.generateTeamTwo(teamTwoName);
 
 
 	Session session;

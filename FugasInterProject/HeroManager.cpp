@@ -21,11 +21,12 @@ Hero HeroManager::createHero(Hero &new_hero)
 	new_hero.hp = randHeroHp;
 	new_hero.damage = randHeroDamage;
 
-	this->heroes.push_back(new_hero);
+	this->heroesOne.push_back(new_hero);
 
 	return new_hero;
 }
-
+/*
+* 
 Hero HeroManager::getHeroByName(std::string name)
 {
 	for (int i = 0; i < heroes.size(); i++)
@@ -48,6 +49,8 @@ Hero HeroManager::getHeroById(int id)
 	}
 }
 
+*/
+
 void HeroManager::showHeroInfo(Hero hero)
 {
 	std::cout << "Hero " << hero.getName() << " with "
@@ -57,26 +60,39 @@ void HeroManager::showHeroInfo(Hero hero)
 
 void HeroManager::deleteHero(int index)
 {
-	std::vector<Hero>::iterator iterator = heroes.begin();
+	std::vector<Hero>::iterator iterator = heroesOne.begin();
 	std::advance(iterator, index);
-	heroes.erase(iterator);
+	heroesOne.erase(iterator);
 }
 
 void HeroManager::print()
 {
-	for (auto element : heroes)
+	for (auto element : heroesOne)
 	{
 		showHeroInfo(element);
 	}
 }
 
-Hero HeroManager::randHero()
+Hero HeroManager::randHeroOne()
 {
 	srand((unsigned)time(0));
-	int a = (rand() % heroes.size());
-	Hero hero = heroes[a];
+	int a = (rand() % heroesOne.size());
+	Hero hero = heroesOne[a];
 
 	deleteHero(a);
+
+	return hero;
+}
+
+Hero HeroManager::randHeroTwo()
+{
+	srand((unsigned)time(0));
+	int a = (rand() % heroesTwo.size());
+	Hero hero = heroesTwo[a];
+
+	std::vector<Hero>::iterator iterator = heroesTwo.begin();
+	std::advance(iterator, a);
+	heroesTwo.erase(iterator);
 
 	return hero;
 }

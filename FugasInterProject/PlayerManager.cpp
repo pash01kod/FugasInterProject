@@ -6,29 +6,29 @@ PlayerManager::PlayerManager()
 
 PlayerManager::PlayerManager(Player& players)
 {
-	this->players;
+	this->playersOne;
 }
 
 Player PlayerManager::createPlayer(Player& new_player)
 {
 	int id;
 	std::string name;
-	int randplayerRank = rand() % 100;
+	int randPlayerRank = rand() % 100;
 	std::cout << "Enter player`s name: ";
 	std::cin >> name;
 	std::cout << "Enter ID: ";
 	std::cin >> id;
-	std::cout << "Rank: " << randplayerRank << "\n";
+	std::cout << "Rank: " << randPlayerRank << "\n";
 
 	new_player.id = id;
 	new_player.name = name;
-	new_player.rank = randplayerRank;
+	new_player.rank = randPlayerRank;
 
-	this->players.push_back(new_player);
+	this->playersOne.push_back(new_player);
 
 	return new_player;
 }
-
+/*
 Player PlayerManager::getPlayerByName(std::string name)
 {
 	for (int i = 0; i < players.size(); i++)
@@ -46,6 +46,8 @@ Player PlayerManager::getPlayerById(int id)
 			return players[i];
 	}
 }
+*/
+
 
 void PlayerManager::showPlayerInfo(Player player)
 {
@@ -54,18 +56,32 @@ void PlayerManager::showPlayerInfo(Player player)
 
 void PlayerManager::deletePlayer(int index)
 {
-	std::vector<Player>::iterator iterator = players.begin();
+	std::vector<Player>::iterator iterator = playersOne.begin();
 	std::advance(iterator, index);
-	players.erase(iterator);
+	playersOne.erase(iterator);
 }
 
-Player PlayerManager::randPlayer()
+Player PlayerManager::randPlayerOne()
 {
-	srand((unsigned)time(NULL));
+	srand((unsigned)time(0));
 	int a;
-	a = (rand() % players.size());
-	Player player = players[a];
+	a = (rand() % playersOne.size());
+	Player player = playersOne[a];
 
 	deletePlayer(a);
+	return player;
+} 
+
+Player PlayerManager::randPlayerTwo()
+{
+	srand((unsigned)time(0));
+	int a;
+	a = (rand() % playersTwo.size());
+	Player player = playersTwo[a];
+
+	std::vector<Player>::iterator iterator = playersTwo.begin();
+	std::advance(iterator, a);
+	playersTwo.erase(iterator);
+
 	return player;
 } 

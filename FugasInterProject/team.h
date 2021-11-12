@@ -1,5 +1,6 @@
 #pragma once
-#include "game.h"
+#include "player.h"
+#include "hero.h"
 
 class Team
 {

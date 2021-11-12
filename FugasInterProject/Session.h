@@ -1,7 +1,6 @@
 #pragma once
 #include <ctime>
-#include"game.h"
-#include "Team.h"
+#include "team.h"
 
 class Session
 {

@@ -5,7 +5,7 @@ TeamManager::TeamManager()
 
 }
 
-Team TeamManager::generateNewTeam(std::string teamName)
+Team TeamManager::generateTeamOne(std::string teamName)
 {
 	PlayerManager player_manager;
 	HeroManager hero_manager;
@@ -15,9 +15,32 @@ Team TeamManager::generateNewTeam(std::string teamName)
 
 	for (int i = 0; i < 5; i++)
 	{
-		players[i] = player_manager.randPlayer();
+		players[i] = player_manager.randPlayerOne();
 		player_manager.showPlayerInfo(players[i]);
-		heroes[i] = hero_manager.randHero();
+		heroes[i] = hero_manager.randHeroOne();
+		hero_manager.showHeroInfo(heroes[i]);
+
+		std::cout << std::endl;
+	}
+
+	Team team(teamName, players, heroes);
+
+	return team;
+}
+
+Team TeamManager::generateTeamTwo(std::string teamName)
+{
+	PlayerManager player_manager;
+	HeroManager hero_manager;
+
+	Player players[5];
+	Hero heroes[5];
+
+	for (int i = 0; i < 5; i++)
+	{
+		players[i] = player_manager.randPlayerTwo();
+		player_manager.showPlayerInfo(players[i]);
+		heroes[i] = hero_manager.randHeroTwo();
 		hero_manager.showHeroInfo(heroes[i]);
 
 		std::cout << std::endl;

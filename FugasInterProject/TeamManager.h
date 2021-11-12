@@ -1,6 +1,9 @@
 #pragma once
 
-#include "game.h"
+#include "PlayerManager.h"
+#include "HeroManager.h"
+#include "Team.h"
+#include <iostream>
 
 
 class TeamManager
@@ -8,7 +11,8 @@ class TeamManager
 public:
 	TeamManager();
 
-	Team generateNewTeam(std::string teamName);
+	Team generateTeamOne(std::string teamName);
+	Team generateTeamTwo(std::string teamName);
 
 	void getTeamInfo(Team& team);
 };
