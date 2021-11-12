@@ -1,8 +1,5 @@
 #pragma once
-#include "hero.h"
-#include <ctime>
-#include<vector>
-#include <iostream>
+#include "game.h"
 
 class HeroManager
 {

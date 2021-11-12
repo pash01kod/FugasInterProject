@@ -1,6 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
+#include "game.h"
 
 
 class Player
@@ -19,5 +18,7 @@ public:
 	int getRank();
 
 	void setRank(int newRank);
+	friend std::ostream& operator<< (std::ostream& out, const Player& player);
+
 };
 

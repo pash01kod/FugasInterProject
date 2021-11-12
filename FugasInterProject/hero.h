@@ -1,6 +1,6 @@
 #pragma once
 #include"game.h"
-#include<string>
+
 
 class Hero
 {
@@ -19,7 +19,6 @@ public:
 	int getHp();
 
 	int setHp(int hp);
-
-	
+	friend std::ostream& operator<< (std::ostream& out, const Hero& hero);
 };
 

@@ -39,5 +39,10 @@ int Hero::setHp(int hp)
 	return hp;
 }
 
+std::ostream& operator<< (std::ostream& uot, const Hero& hero)
+{
+	uot << "Name hero\t" << hero.name << "\tDamage\t" << hero.damage << "\tHP\t" << hero.hp;
+	return uot;
+}
 
 

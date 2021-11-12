@@ -33,6 +33,12 @@ void Player::setRank(int newRank)
 	rank = newRank;
 }
 
+
+std::ostream& operator<< (std::ostream& out, const Player& player)
+{
+	out << "Name player\t" << player.name << "\tRank\t" << player.rank;
+	return out;
+}
 /*
 void Player::showPlayerInfo()
 {

@@ -7,19 +7,19 @@
 #include"PlayerManager.h"
 #include"Session.h"
 #include"TeamManager.h"
-#include<ctime>
 #include<string>
 #include<iostream>
 #include<vector>
 #include<list>
+#include<ctime>
+#include <chrono>
+#include <time.h>
 
 
 class GameManager
 {
 public:
 	GameManager();
-
-	void mainMenu();
 
 	void performGameSession();
 

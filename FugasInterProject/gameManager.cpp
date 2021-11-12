@@ -1,5 +1,9 @@
 #include"game.h"
 
+GameManager::GameManager()
+{
+
+}
 
 void GameManager::performGameSession()
 {
@@ -13,7 +17,7 @@ void GameManager::performGameSession()
 
 
 	std::cout << "Second team: " << teamTwoName << "\n\n";
-	Team team2 = teamManager.generateNewTeamOne(teamTwoName);
+	Team team2 = teamManager.generateNewTeam(teamTwoName);
 
 
 	Session session;
@@ -35,9 +39,6 @@ void GameManager::performGameSession()
 
 	teamManager.getTeamInfo(session.loser);
 	std::cout << "\n";
-
-
-
 }
 
 void GameManager::addRank(Team& winnerTeam)
